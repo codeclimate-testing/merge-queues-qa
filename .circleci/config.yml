@@ -12,11 +12,11 @@ jobs:
       - run: bundle exec rspec --color --require spec_helper spec --format progress
       - run:
           environment:
-            CC_TEST_REPORTER_ID: d76df47be9b52246e2d4eee9eee296108dc7171eb98cf0fc5c519dc1332174ae
+            CC_TEST_REPORTER_ID: 14ada3f7f523547f309d00d9a2875269b50c38298774f1075062b1183dcda048
           command: ./cc-test-reporter format-coverage
       - run:
           environment:
-            CC_TEST_REPORTER_ID: d76df47be9b52246e2d4eee9eee296108dc7171eb98cf0fc5c519dc1332174ae
+            CC_TEST_REPORTER_ID: 14ada3f7f523547f309d00d9a2875269b50c38298774f1075062b1183dcda048
           command: ./cc-test-reporter upload-coverage
 workflows:
   version: 2
