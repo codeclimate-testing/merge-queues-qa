@@ -21,4 +21,8 @@ class Dog
   def bark
     name
   end
+
+  def something
+    "something"
+  end
 end
