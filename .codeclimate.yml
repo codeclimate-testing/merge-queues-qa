@@ -1,0 +1,48 @@
+---
+prepare:
+  fetch:
+    - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/ruby/rubocop.yml
+      path: base_rubocop.yml
+engines:
+  flog:
+    enabled: true
+    channel: beta
+  brakeman:
+    enabled: true
+    channel: beta
+  structure:
+    enabled: true
+  bundler-audit:
+    enabled: false
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - ruby
+  fixme:
+    enabled: false
+  rubocop:
+    enabled: true
+    channel: beta
+    config:
+      file: "base_rubocop.yml"
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.inc"
+  - "**.js"
+  - "**.jsx"
+  - "**.module"
+  - "**.php"
+  - "**.py"
+  - "**.rb"
+exclude_paths:
+- spec/
+
+
+# TODO
+# TODO
+# TODO
+# TODO
+# TODO
+# TODO
