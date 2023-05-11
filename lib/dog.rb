@@ -21,4 +21,28 @@ class Dog
   def bark
     name
   end
+
+  def something
+    "something"
+  end
+
+  def something_2
+    "something"
+  end
+
+  def something_3
+    "something"
+  end
+
+  def something_4
+    "something"
+  end
+
+  def something_5
+    "something"
+  end
+
+  def something_6
+    "something"
+  end
 end
