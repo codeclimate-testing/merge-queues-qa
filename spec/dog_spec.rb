@@ -21,7 +21,7 @@ RSpec.describe Dog do
 
   describe "#something" do
     it "returns something" do
-      expect(Dog.new.something).to eq "something"
+      expect(Dog.new("Milo").something).to eq "something"
     end
   end
 end
