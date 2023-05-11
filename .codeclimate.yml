@@ -4,12 +4,6 @@ prepare:
     - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/ruby/rubocop.yml
       path: base_rubocop.yml
 engines:
-  flog:
-    enabled: true
-    channel: beta
-  brakeman:
-    enabled: true
-    channel: beta
   structure:
     enabled: true
   bundler-audit:
