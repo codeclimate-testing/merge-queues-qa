@@ -45,4 +45,9 @@ class Cat
     puts "no tests for this method either"
     puts "no tests for this method either"
   end
+
+
+  def with_too_many_arguments(a, b, c, d, e, f, g)
+    puts "no tests for this method either"
+  end
 end
