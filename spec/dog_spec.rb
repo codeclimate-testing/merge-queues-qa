@@ -18,4 +18,10 @@ RSpec.describe Dog do
       expect(Dog.new("Milo").bark).to eq "Milo!!!"
     end
   end
+
+  describe "#something" do
+    it "returns something" do
+      expect(Dog.new("Milo").something).to eq "something"
+    end
+  end
 end
